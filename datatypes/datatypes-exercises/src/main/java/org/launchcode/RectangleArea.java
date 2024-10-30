@@ -11,7 +11,7 @@ public class RectangleArea {
         System.out.println("Enter a number for the width of the rectangle:");
         Double rectangleWidth = input.nextDouble();
 
-        double rectangleArea = (rectangleLength + rectangleWidth) * 2;
+        double rectangleArea = rectangleLength * rectangleWidth;
         System.out.println("The area of the rectangle is " + rectangleArea);
     }
 }
